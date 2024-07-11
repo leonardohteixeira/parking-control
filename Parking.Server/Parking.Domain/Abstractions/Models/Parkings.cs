@@ -2,7 +2,7 @@
 {
     public class Parkings
     {
-        public Guid ParkingId { get; set; }
+        public Guid? ParkingsId { get; set; }
         public string? Plate { get; set; }
         public DateTime? ArrivalTime { get; set; }
         public DateTime? DepartureTime { get; set; }
