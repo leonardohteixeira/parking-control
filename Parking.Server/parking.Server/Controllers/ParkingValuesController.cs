@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Mysqlx.Notice;
 using Parking.Domain;
 using Parking.Domain.Abstractions.Models;
 using Parking.Server.Abstractions.Models;
@@ -29,10 +30,23 @@ public class ParkingValuesController(ApplicationDbContext context) : Controller
     {
         try
         {
-            var items = await context.AddAsync(parkingValues, cancellationToken);
+            var existent = await context.Set<ParkingValues>().FirstOrDefaultAsync(p => p.ParkingValuesId == parkingValues.ParkingValuesId, cancellationToken);
+
+            if (existent is not null)
+            {
+                existent.Value = parkingValues.Value;
+                existent.HalfInTheFirstHour = parkingValues.HalfInTheFirstHour;
+                existent.HourlyTolerance = parkingValues.HourlyTolerance;
+            }
+            else
+            {
+                await context.AddAsync(parkingValues, cancellationToken);
+                existent = parkingValues;
+            }
+
             await context.SaveChangesAsync(cancellationToken);
 
-            return Ok(items.Entity);
+            return Ok(existent);
         }
         catch (Exception e)
         {

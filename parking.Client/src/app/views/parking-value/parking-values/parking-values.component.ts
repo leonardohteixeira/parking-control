@@ -30,7 +30,6 @@ export class ParkingValuesComponent {
 
   save() {
     this.http.post(`${environment.apiUrl}/parking-values/save-values`, this.values).subscribe(() => {
-
     });
   }
 }

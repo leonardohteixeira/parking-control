@@ -14,6 +14,4 @@ import { ClockComponent } from "../../page/clock/clock.component";
   templateUrl: './default-view.component.html',
   styleUrl: './default-view.component.scss'
 })
-export class DefaultViewComponent {
-
-}
+export class DefaultViewComponent {}
