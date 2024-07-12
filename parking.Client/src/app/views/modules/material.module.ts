@@ -7,6 +7,9 @@ import { FormsModule } from "@angular/forms";
 import {MatInputModule} from '@angular/material/input';
 import {MatIconModule} from '@angular/material/icon';
 import { MatSortModule } from "@angular/material/sort";
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatCardModule} from '@angular/material/card';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 @NgModule({
   declarations: [],
@@ -19,6 +22,9 @@ import { MatSortModule } from "@angular/material/sort";
     FormsModule,
     MatIconModule,
     MatSortModule,
+    MatToolbarModule,
+    MatCardModule,
+    MatCheckboxModule
   ]
 })
 export class MaterialModule { }

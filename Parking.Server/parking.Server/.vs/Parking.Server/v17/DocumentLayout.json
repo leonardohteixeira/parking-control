@@ -7,27 +7,8 @@
       "RelativeMoniker": "D:0:0:{992F24B4-3C26-41F6-B49A-25FDCF4BAD30}|Parking.Server.csproj|solutionrelative:controllers\\parkingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D9076F-063D-4A4B-B5FF-F707C45FFF4C}|..\\Parking.Domain\\Parking.Domain.csproj|c:\\users\\morer\\source\\parking\\parking.server\\parking.domain\\abstractions\\models\\parkings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{992F24B4-3C26-41F6-B49A-25FDCF4BAD30}|Parking.Server.csproj|c:\\users\\morer\\source\\parking\\parking.server\\parking.server\\migrations\\aplicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{992F24B4-3C26-41F6-B49A-25FDCF4BAD30}|Parking.Server.csproj|solutionrelative:migrations\\aplicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{992F24B4-3C26-41F6-B49A-25FDCF4BAD30}|Parking.Server.csproj|c:\\users\\morer\\source\\parking\\parking.server\\parking.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{992F24B4-3C26-41F6-B49A-25FDCF4BAD30}|Parking.Server.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{992F24B4-3C26-41F6-B49A-25FDCF4BAD30}|Parking.Server.csproj|c:\\users\\morer\\source\\parking\\parking.server\\parking.server\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{992F24B4-3C26-41F6-B49A-25FDCF4BAD30}|Parking.Server.csproj|solutionrelative:aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{992F24B4-3C26-41F6-B49A-25FDCF4BAD30}|Parking.Server.csproj|c:\\users\\morer\\source\\parking\\parking.server\\parking.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{992F24B4-3C26-41F6-B49A-25FDCF4BAD30}|Parking.Server.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{992F24B4-3C26-41F6-B49A-25FDCF4BAD30}|Parking.Server.csproj|c:\\users\\morer\\source\\parking\\parking.server\\parking.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{992F24B4-3C26-41F6-B49A-25FDCF4BAD30}|Parking.Server.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{992F24B4-3C26-41F6-B49A-25FDCF4BAD30}|Parking.Server.csproj|c:\\users\\morer\\source\\parking\\parking.server\\parking.server\\controllers\\parkingvaluescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{992F24B4-3C26-41F6-B49A-25FDCF4BAD30}|Parking.Server.csproj|solutionrelative:controllers\\parkingvaluescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,45 +18,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 586,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\morer\\source\\parking\\Parking.Server\\parking.Server\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\morer\\source\\parking\\Parking.Server\\parking.Server\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-11T01:02:17.089Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\morer\\source\\parking\\Parking.Server\\parking.Server\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\morer\\source\\parking\\Parking.Server\\parking.Server\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAASAAAA",
+              "DocumentIndex": 1,
+              "Title": "ParkingValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\morer\\source\\parking\\Parking.Server\\parking.Server\\Controllers\\ParkingValuesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ParkingValuesController.cs",
+              "ToolTip": "C:\\Users\\morer\\source\\parking\\Parking.Server\\parking.Server\\Controllers\\ParkingValuesController.cs",
+              "RelativeToolTip": "Controllers\\ParkingValuesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T00:46:19.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\morer\\source\\parking\\Parking.Server\\parking.Server\\Migrations\\AplicationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\AplicationDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\morer\\source\\parking\\Parking.Server\\parking.Server\\Migrations\\AplicationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\AplicationDbContextModelSnapshot.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T00:45:21.964Z",
+              "WhenOpened": "2024-07-12T18:34:43.243Z",
               "EditorCaption": ""
             },
             {
@@ -86,48 +45,9 @@
               "RelativeDocumentMoniker": "Controllers\\ParkingsController.cs",
               "ToolTip": "C:\\Users\\morer\\source\\parking\\Parking.Server\\parking.Server\\Controllers\\ParkingsController.cs",
               "RelativeToolTip": "Controllers\\ParkingsController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAMAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAA1wDsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T00:42:53.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\morer\\source\\parking\\Parking.Server\\parking.Server\\AplicationDbContext.cs",
-              "RelativeDocumentMoniker": "AplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\morer\\source\\parking\\Parking.Server\\parking.Server\\AplicationDbContext.cs",
-              "RelativeToolTip": "AplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T00:39:11.872Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Parkings.cs",
-              "DocumentMoniker": "C:\\Users\\morer\\source\\parking\\Parking.Server\\Parking.Domain\\Abstractions\\Models\\Parkings.cs",
-              "RelativeDocumentMoniker": "..\\Parking.Domain\\Abstractions\\Models\\Parkings.cs",
-              "ToolTip": "C:\\Users\\morer\\source\\parking\\Parking.Server\\Parking.Domain\\Abstractions\\Models\\Parkings.cs",
-              "RelativeToolTip": "..\\Parking.Domain\\Abstractions\\Models\\Parkings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T00:40:58.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\morer\\source\\parking\\Parking.Server\\parking.Server\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\morer\\source\\parking\\Parking.Server\\parking.Server\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-09T17:50:17.351Z",
+              "WhenOpened": "2024-07-12T18:33:33.459Z",
               "EditorCaption": ""
             }
           ]

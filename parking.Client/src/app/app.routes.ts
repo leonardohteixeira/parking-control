@@ -1,14 +1,19 @@
 import { Routes } from '@angular/router';
-import { PageComponent } from './views/page/page/page.component';
+import { ParkingsComponent } from './views/parking/parkings/parkings.component';
+import { ParkingValuesComponent } from './views/parking-value/parking-values/parking-values.component';
 
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: '/home',
+    redirectTo: '/parkings',
     pathMatch: 'full',
   },
   {
-    path: 'home',
-    component: PageComponent,
+    path: 'parkings',
+    component: ParkingsComponent,
+  },
+  {
+    path: 'parking-values',
+    component: ParkingValuesComponent,
   }
 ];

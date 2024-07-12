@@ -1,0 +1,18 @@
+.table-card {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  mat-card {
+    width: 100%;
+  }
+
+  .detail {
+    width: 400px;
+    margin: 20px;
+  }
+}

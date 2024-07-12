@@ -1,0 +1,23 @@
+<app-default-view>
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>Valores</mat-card-title>
+    </mat-card-header>
+
+    <div class="row">
+      <mat-form-field>
+        <mat-label>Valor por hora</mat-label>
+        <input matInput  [(ngModel)]="values.value" name="value">
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Tolerância para cobrar mais uma hora em minutos</mat-label>
+        <input matInput  [(ngModel)]="values.hourlyTolerance" name="hourlyTolerance">
+      </mat-form-field>
+
+      <mat-checkbox [(ngModel)]="values.halfInTheFirstHour" name="halfInTheFirstHour">Metade do valor na primeira hora</mat-checkbox>
+
+      <button mat-raised-button (click)="save()">Salvar</button>
+    </div>
+  </mat-card>
+</app-default-view>
